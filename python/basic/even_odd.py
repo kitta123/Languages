@@ -1,11 +1,11 @@
 def isEven(n) :
-    return (n & 1);
+    return (n & 1)
 
-n = int(input("Enter the number to check even or odd :"));
+n = int(input("Enter the number to check even or odd :"))
 if(isEven(n) == 0) :
-    print ("Even");
+    print ("Entered number is Even")
 else :
-    print ("Odd");
+    print ("Entered number is Odd")
 
 n = int(input("Enter the number to check even or odd :"))
 if n%2==0:
