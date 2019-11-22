@@ -1,7 +1,7 @@
 num = int(input("Enter the number to check prime or not prime :"))
 import math
 if num>1:
-    for i in range(2,math.ceil(num/2)):
+    for i in range(2,math.floor(num/2)):
         if num%i==0:
             print("{} is not a prime number".format(num))
             break

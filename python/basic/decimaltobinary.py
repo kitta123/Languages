@@ -1,11 +1,11 @@
-# def DecimalToBinary(num):
-#     if num > 1:
-#         DecimalToBinary(num // 2)
-#     print(num % 2, end = '')
-#
-# if __name__ == '__main__':
-#     decimal = int(input("Enter a decimal number to convert to binary :"))
-#     DecimalToBinary(decimal)
+def DecimalToBinary(num):
+    if num > 1:
+        DecimalToBinary(num // 2)
+    print(num % 2, end = '')
+
+if __name__ == '__main__':
+    decimal = int(input("Enter a decimal number to convert to binary :"))
+    DecimalToBinary(decimal)
 
 # n=int(input("Enter a number: "))
 # a=[]

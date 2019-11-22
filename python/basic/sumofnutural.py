@@ -29,5 +29,6 @@ def sumofnatural(n):
         sum = num*(num+1)/2
         print("Sum of entered number is :",sum)
 
+l = []
 num = int(input("Enter the number :"))
 sumofnatural(num)
