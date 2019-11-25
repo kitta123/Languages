@@ -29,7 +29,7 @@ def printPairs(a, n, sum):
         for j in range(i + 1, n ):
             if (a[i] + a[j] == sum):
                 print("The solutions for the give value :","(",a[i],",",a[j],")",sep = "")
-                lst.append((arr[i],arr[j]))
+                lst.append((a[i],a[j]))
     print(lst)
 
 lst = []
@@ -42,13 +42,13 @@ for n in range(0,a):
     lst.append(numbers)
     lst1 = lst1+1
 n = len(lst)
-sum = target = int(input('Enter the target number :'))
+sum = int(input('Enter the target number :'))
 for i in lst:
     if i<=sum:
         lst2.append(i)
     else:
         lst3.append(i)
 
-print(lst2)
-print(lst3)
+print("The numbers lesser or equal to the target number :",lst2)
+print("The numbers greater then the target number :",lst3)
 printPairs(lst, n, sum)
