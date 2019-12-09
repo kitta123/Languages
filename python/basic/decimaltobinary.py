@@ -22,7 +22,7 @@ if __name__ == '__main__':
 def decToBin(n):
     if(n == 0):
         return "0"
-    bin = "";
+    bin = ""
     while (n > 0):
         if (n & 1 == 0):
             bin = '0' + bin

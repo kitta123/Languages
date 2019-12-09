@@ -1,5 +1,6 @@
 ''' write a script to find the frequency accurance of words from a give string '''
 s = input("Enter some string :")
+s = s.lower()
 words = s.split()
 d = {}
 for word in words:
@@ -11,7 +12,8 @@ for k in d.keys():
     print(k,":",d[k])
 
 ''' Using Recursion '''
-def frequencyaccurance(words):
+def frequencyaccurance(s):
+    s = s.lower()
     words = s.split()
     d = {}
     for word in words:

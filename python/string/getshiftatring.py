@@ -1,9 +1,9 @@
-def rotate(input,d):
+def rotate(a,d):
 
-    Lfirst = input[0 : d]
-    Lsecond = input[d :]
-    Rfirst = input[0 : len(input)-d]
-    Rsecond = input[len(input)-d : ]
+    Lfirst = a[0 : d]
+    Lsecond = a[d :]
+    Rfirst = a[0 : len(a)-d]
+    Rsecond = a[len(a)-d : ]
 
     print("Left Rotated String : ", (Lsecond + Lfirst))
     print("Right Rotated String : ", (Rsecond + Rfirst))
