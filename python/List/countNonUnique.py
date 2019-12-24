@@ -18,7 +18,7 @@ def countNonUnique(lst):
 
 lst = int(input("Enter the number :"))
 lst1 = []
-for i in lst:
-    numbers = int(input("Enter the numbers :"))
+for i in range(lst):
+    numbers = int(input("Enter the numbers "+str(i+1)+":"))
     lst1.append(numbers)
 countNonUnique(lst1)

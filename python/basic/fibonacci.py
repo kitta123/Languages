@@ -31,6 +31,5 @@ else:
    print("Fibonacci sequence:")
    for i in range(n):
        j = fibo(i)
-       print(j)
        lst.append(j)
 print(lst)

@@ -10,6 +10,8 @@ else:
         num = num-1
     print("The sum of entered number is",sum)
 
+
+
 num = int(input("Enter the number :"))
 if num <= 0:
     print("Enter the positive number")

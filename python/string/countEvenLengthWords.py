@@ -1,4 +1,4 @@
-'''To count Even Length words from a given string'''
+''' To count Even Length words from a given string '''
 str = input("Enter the string :")
 str = str.lower()
 k = str.split()
@@ -11,7 +11,7 @@ print(count)
 
 ''' Using Recursion '''
 def countEven(str):
-    str = str.lower() 
+    str = str.lower()
     k = str.split()
     count = 0
     for i in k:
