@@ -1,0 +1,82 @@
+git clone
+
+git branch
+
+git checkout dev
+
+git branch
+
+git checkout -b "<branch_name>" dev
+
+=========
+git checkout dev
+
+git pull 
+
+git checkout branch_name
+
+git merge dev
+
+
+===========
+
+git checkout <master>
+git pull
+git checkout <new_branch_raushan>
+git merge <master>
+git status
+if conflicts then,
+git add.
+git commit -m "<any message>"
+
+
+=================
+git add .
+git commit -m "<any message>"
+
+============================
+sudo git checkout -b <new_branch_name>
+sudo git pull origin <branch_name>
+sudo git merge origin/<branch_name>
+
+========================================
+// To Clone from a repository and create branch
+
+1.> Create one folder where you want to clone
+
+2.> To Creat eUser and Mail for repository
+from that new Directory, from command-line execute the command i.e.,
+$ git config --global user.name "prakash.asmltd@polylogyx.com", and then
+$ git config --global user.email "prakash.asmltd@polylogyx.com"
+
+3.> Check the details with exceuted with following command:
+$ sudo git config --list, if it's all fine then clone from repository url like below:-
+$ sudo git clone https://prakash_asm_poly@bitbucket.org/polylogyx/plgx-osq-server.git, give password if it is.
+
+4.> change directory and check the branch, with following command:
+$ sudo git branch, and to display list of branch execute the following command:
+$ sudo git branch -a
+
+5.> from here, we can move into any branch with checkout of that branch_name by execute the command,i.e.,
+$ sudo git <branch_name>
+
+6.> we can check our current_branch with particular command, i.e.,
+$ sudo git branch
+
+7.> Then, pull the code from that branch like below:
+$ sudo git pull,
+
+8.> To create a new_branch execute the following command i.e.,
+$ sudo git checkout -b <new_branch_name>, then check the current branch with command is:$ sudo git branch
+
+9.> Finally push the branch to remote with following command:
+$ sudo git push origin <branch_name> and then it will displayed in the remote location.
+
+
+
+
+
+
+
+
+
