@@ -11,5 +11,5 @@ def  contalpha(n):
             num = num +1
         print("\r")
 
-n = n = int(input("Enter the number to get Alphabet Pattern :"))
+n = int(input("Enter the number to get Alphabet Pattern :"))
 contalpha(n)

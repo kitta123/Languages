@@ -25,10 +25,10 @@
 
 def printPairs(a, n, sum):
     lst = []
-    for i in range(0, n ):
-        for j in range(i + 1, n ):
+    for i in range(0,n):
+        for j in range(i+1,n):
             if (a[i] + a[j] == sum):
-                print("The solutions for the give value :","(",a[i],",",a[j],")",sep = "")
+                print("The solutions for the given value :","(",a[i],",",a[j],")",sep = "")
                 lst.append((a[i],a[j]))
     print(lst)
 

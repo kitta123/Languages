@@ -12,7 +12,7 @@ def lcm(x,y):
 
 num1 = int(input("Enter the first lcm number :"))
 num2 = int(input("Enter the second lcm number :"))
-print("Them Lcm of the Two numbers is",lcm(num1,num2))
+print("The Lcm of the Two numbers is",lcm(num1,num2))
 
 #Using Euclidian Algorithm.
 def gcd(x,y):
